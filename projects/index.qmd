@@ -113,7 +113,7 @@ This Gilead award supports the promising and innovative research project of the 
   <summary style="color: #061d4e; font-size:170%">Funding</summary>
     ---
 <div class="bodyimgstyle">
-  <a><img src="../img/LOEWE_logo.png" alt="Avatar" style="width:30%; margin:10px;"></a>
+  <a href="https://wissenschaft.hessen.de/forschen/landesprogramm-loewe/loewe-im-ueberblick"><img src="../img/LOEWE_logo.png" alt="Avatar" style="width:30%; margin:10px;"></a>
   <a href="https://fci.health/en/"><img src="../img/FCI-Logo.png" alt="Avatar" style="width:20%; margin:10px;"></a>
   <a href="https://www.krebshilfe.de/"><img src="../img/1200px-Deutsche_Krebshilfe_Logo.svg.png" alt="Avatar" style="width:30%; margin:10px;"></a>
   <a href="https://www.wilhelm-sander-stiftung.de/"><img src="../img/wilhelm-sander-stiftung.png" alt="Avatar" style="width:30%; margin:10px;"></a>
