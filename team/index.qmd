@@ -1,0 +1,22 @@
+---
+fig-cap-location: bottom
+format:
+  html:
+    css: ../html/styles.scss
+---
+
+# TEAM
+---
+
+<!-- Vertical space -->
+<p>&emsp;</p>
+
+<!-- Makes image and image caption a bit broader than the usual web page -->
+:::{.column-body-outset}
+
+<img src="../img/ullrich_team.jpg" alt="Avatar" style="width:100%">
+
+<p font-size:90%">f.l.t.r.: Philipp Wendel, Nawid Albinger, Jan Habermann, Tobias Bexte, Lisa Marie Reindl, Evelyn Ullrich, Julia Campe, Franziska Ganß, Alina Moter, Thorsten Diegisser, Katja Stein, Fenja Gierschek, Alice Born, Elisa Dollberg (2022).</p>
+<p font-size:90%">Not on the photo (in alphabetical order): Leon Buchinger, Janne Hauck, Lennart Krähl, Lida Jalili, Sophia Thul.</p>
+
+:::

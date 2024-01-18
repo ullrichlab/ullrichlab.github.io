@@ -1,0 +1,71 @@
+# website settings
+# Do not touch this unless you know what you're doing
+website:
+  title: "Ullrich Lab"
+  description: "Experimental Immunology and Cell Therapy"
+  image: img/small_logo.png
+  
+  favicon: img/small_logo.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    foreground: $mediumteal
+    pinned: true
+    logo: /img/small_logo.png
+    
+    # your sub-pages
+    left:
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Team"
+        href: team/index.qmd
+      - text: "Career & Education"
+        href: career/index.qmd
+      - text: "Contact"
+        href: contact/index.qmd
+    
+    # your social media handles
+    right:
+      - icon: twitter
+        href: "https://twitter.com/ullrich_lab"
+      - icon: envelope-fill
+        aria-label: email
+        href: "mailto:evelyn@ullrichlab.de"
+
+  search: 
+    location: navbar
+    type: textbox
+    
+  page-footer: 
+    left:
+      - text: "Home"
+        href: index.qmd
+    right:
+      - text: "Impressum"
+        href: impressum.qmd
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1em
+    theme:
+      - lux
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
