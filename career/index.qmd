@@ -1,0 +1,22 @@
+---
+format:
+  html:
+    css: ../html/styles.scss
+---
+# Immunological education and career support 
+
+<p style="color: #061d4e; font-size:150%">Clinician Scientist Program INDEEP</p>
+
+Following a highly competitive selection process, a new Clinician Scientist program is funded by the DFG. "Inflammation-Driven Diseases Programme (INDEEP): Inflammation as a Disease Driver and Therapeutic Target" with spokesperson Prof. Evelyn Ullrich and deputy Prof. Sandra Ciesek will start in mid-2023 to train interdisciplinary Clincian Scientists at the Department of Medicine.
+[Further information](https://aktuelles.uni-frankfurt.de/forschung/millionen-fuer-mehr-freiraum-zur-forschung/)
+
+<p style="color: #061d4e; font-size:150%">Clinical Training in Immunology</p>
+Since the amendment of the WBO 2020, it is possible to acquire additional training in immunology. This comprises, in addition to a specialist competence, the specialist clinical diagnosis and therapy of immunodeficiencies and immunodysregulation syndromes including immunodiagnostic methods. 
+
+Further information can be found on the German-language webpage of the [LÄKH](https://www.laekh.de/fuer-aerztinnen-und-aerzte/weiterbildung/neue-weiterbildungsordnung-fuer-hessen-ab-2020).
+
+<p style="color: #061d4e; font-size:150%">Training as specialist immunologist DGfI</p>
+The German Society for Immunology (DGfI) has granted the Department of Pediatrics and Adolescent Medicine of the Goethe University Frankfurt the institute authorization for further training as a specialist immunologist DGfI.
+
+Further information can be found on the German-language webpage of the [DGfI](https://dgfi.org/akademie-fuer-immunologie/fachimmunologe/).
+
