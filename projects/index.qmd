@@ -59,16 +59,10 @@ Within the framework of various studies, the immune response to SARS-CoV-2 after
 - Preparation of GMP manufacturing processes
 - Clinical studies in the field of cellular immunotherapy
 
-  
-<p style="color: #061d4e; font-size:150%">Immuno Oncology</p>
-- Advanced 2D/3D/4D models for evaluation of immunotherapies
-- Models for the analysis of patho-mechanisms of GVL and GVHD
-- Models for development of combination therapies
-
 <p style="color: #061d4e; font-size:150%">Optical Imaging Technology</p>
-- Advanced 2D/3D/4D models for evaluation of immunotherapies
-- Models for the analysis of patho-mechanisms of GVL and GVHD
-- Models for development of combination therapies
+- Confocal Live Cell Imaging
+- Flow cytometry and cell sorting (FACS)
+- In vivo bioluminescence and fluorescence imaging facility
     
 <p style="color: #061d4e; font-size:150%">Immunodiagnostics</p>
 - Immune reconstitution after stem cell transplantation
