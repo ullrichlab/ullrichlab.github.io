@@ -74,16 +74,11 @@ The <a style="font-weight: 999;">Experimental Immunology and Cell Therapy</a> Di
 <p style="color: #061d4e; font-size:150%">HEAD</p>
 <p style="color: #061d4e; font-size:110%">Prof. Dr. med. Evelyn Ullrich</p>
 
-<!-- columns for adaptive image spacing -->
-:::: {.columns}
-::: {.column width="40%"}
 <div><img class="img-rounded" src="img/evelyn.png" alt="Avatar" id="hp"></div>
-:::
-::: {.column width="60%"}
+
 <p style="color: #006B99;"><i class="bi-envelope"></i> evelyn | ullrichlab.de</p>
 <p style="color: #006B99;"><i class="bi-telephone"></i> +49 69 6301 83000</p>
-:::
-::::
+
 
 <!-- Vertical spacing -->
 <p>&emsp;</p>
