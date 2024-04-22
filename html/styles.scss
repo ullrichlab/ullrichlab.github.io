@@ -299,19 +299,15 @@ a:active {
 
 .img-rounded {
   border-radius: 5%;
-  padding: 10px;
   width: 100%;
   height: auto;
-  max-width: 20vw;
+  max-width: 5vw;
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 10px;
+  float: left;
 }
 
-#hp  {
-float: left;    
- margin: 0 15px 0 0;
-}
 
 .div-event {
         background-color: $offwhite;
