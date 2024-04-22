@@ -3,31 +3,38 @@ comments: false
 format:
   html:
     css: html/styles.scss
+listing:
+- id: "news"
+  contents: news
+  type: default
+- id: "events"
+  contents: events
+  type: default
 ---
 
 <!-- screen inset broadens the display size of the text -->
-::::: {.column-screen-inset-left}
+::::: {.column-page-inset-left}
 
 <!-- columns is a container for different columns -->
 :::: {.columns}
 
-<!-- Adds image on the left margin -->
-::: {.column width="30%"}
-<img class="img-round" src="img/Logo-Draft_ullrich_lab.png" alt="Avatar" style="width: 100%; overflow: hidden; top: 50%; -ms-transform: translateY(50%);
-  transform: translateY(50%);">
-:::
 
-::: {.column width="5%"}
-<!-- empty column for spacing -->
+<!-- Adds image on the left margin -->
+::: {.column width="20%" display="none"}
+<img class="img-round" src="img/Logo-Draft_ullrich_lab.png" alt="Avatar" style="width: 100%; overflow: hidden; -ms-transform: translateY(-50%);
+  position: relative;
+  top: 50%;">
 :::
 
 <!-- Adds text on right column -->
-::: {.column width="65%"}
+::: {.column width="75%"}
 <center>
+  <p>&emsp;</p>
   <a style="color: #061d4e; font-size:220%; font-weight: 700">EXPERIMENTAL IMMUNOLOGY</a> 
   \
   <a style="color: #061d4e; font-size:220%; font-weight: 700">AND CELL THERAPY</a>
 </center>
+:::
 
 <!-- Adds vertical space -->
 <p>&emsp;</p>
@@ -38,9 +45,26 @@ The <a style="font-weight: 999;">Experimental Immunology and Cell Therapy</a> Di
 <a style="font-weight: 999;">Translational research</a> aims to develop innovative <a style="font-weight: 999;">cell-based immunotherapies</a>. Viral and non-viral technologies for the generation of CAR engineered immune cell products are optimized in a broad range of in vitro/in vivo models. The foundations are laid for GMP-compliant manufacturing and clinical application of genetically modified cell therapies and combinatorial treatment concepts.
 
 <a style="font-weight: 999;">Artificial intelligence (AI) and machine learning (ML) technologies</a> for data analysis, design and prediction will be applied to tailor immune cell therapies to specific needs and patients, thereby leading to the next level of development and translation of <a style="font-weight: 999;">personalized medicine</a>.
-:::
+
+<!-- Adds vertical space -->
+<p>&emsp;</p>
+
+
+
 ::::
+
+<a style="color: #061d4e; font-size:220%; font-weight: 700">News</a>
+
+:::{#news}
+:::
+
+<a style="color: #061d4e; font-size:220%; font-weight: 700">Events</a>
+
+:::{#events}
+:::
+
 :::::
+
 
 <!-- Margin side bar container -->
 ::: {.column-margin}
@@ -52,10 +76,8 @@ The <a style="font-weight: 999;">Experimental Immunology and Cell Therapy</a> Di
 
 <!-- columns for adaptive image spacing -->
 :::: {.columns}
-::: {.column width="35%"}
-<div><img class="img-round" src="img/evelyn.png" alt="Avatar" style="width: 100%;" id="hp"></div>
-:::
-::: {.column width="5%"}
+::: {.column width="40%"}
+<div><img class="img-rounded" src="img/evelyn.png" alt="Avatar" id="hp"></div>
 :::
 ::: {.column width="60%"}
 <p style="color: #006B99;"><i class="bi-envelope"></i> evelyn | ullrichlab.de</p>
@@ -84,3 +106,4 @@ The <a style="font-weight: 999;">Experimental Immunology and Cell Therapy</a> Di
 <p style="color: #006B99;"><i class="bi-phone"></i> +49 151 171 90472</p>
 
 :::
+
