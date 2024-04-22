@@ -154,6 +154,7 @@ body {
   .navbar-brand.navbar-brand-logo {
     margin-left: 5vw;
     margin-right: 10vw;
+    visibility: hidden;
 }
 }
 
@@ -168,6 +169,7 @@ body {
   max-height: 100px;
   width: auto;
   align-items: baseline;
+  visibility: hidden;
 }
 }
 
@@ -181,6 +183,7 @@ body {
   .nav-item {
     margin-top: 0;
     margin-right: 0rem;
+    visibility: hidden;
 }
 }
 
@@ -288,7 +291,44 @@ a:active {
   margin-right: auto;
 }
 
+@media (max-width: 600px) {
+  .img-round {
+    display: none;
+  }
+}
+
+.img-rounded {
+  border-radius: 5%;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  max-width: 20vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #hp  {
 float: left;    
  margin: 0 15px 0 0;
+}
+
+.div-event {
+        background-color: $offwhite;
+        color: $gray-700;
+        width: 20vw;
+        height: 15vw;
+        max-width: 20vw;
+        max-height: 15vw;
+        font-size: 24px;
+        padding: 10px;
+        margin: 5px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .div-event{
+    font-size: 1vw;
+  }
 }

@@ -1,0 +1,11 @@
+---
+title: "Frankfurt Cancer Conference"
+subtitle: "28-30 August 2024, Frankfurt"
+href: /events/fcc.qmd
+format:
+  html:
+    css: ../html/styles.scss
+---
+The [Frankfurt Cancer Conference](https://www.uct-frankfurt.de/cancer-conference-2024.html) is a three-day on-site meeting of internationally leading cancer researchers as well as junior scientists and clinical oncologists. The main theme of the conference in 2024 is “Targeting the tumor-host interface”.
+
+The ongoing translational research activities of the [University Cancer Center (UCT) Frankfurt](https://www.uct-frankfurt.de/), the [German Cancer Consortium (DKTK)](https://dktk.dkfz.de/en/sites/frankfurt-mainz) in Frankfurt/Mainz and the [Frankfurt Cancer Institute (FCI)](https://fci.health/en/) provide the framework for the conference. International, national and local research activities will be presented.

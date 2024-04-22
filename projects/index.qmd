@@ -29,6 +29,13 @@ format:
 <details open>
   <summary style="color: #061d4e; font-size:170%">Research Projects and Networks</summary>
     ---
+
+<p style="color: #061d4e; font-size:150%">German Cancer Aid – CAR FACTORY</p>
+The German Cancer Aid (Deutsche Krebshilfe) has set up a [funding priority program to strengthen “preclinical drug development"](https://www.krebshilfe.de/forschen/projekte/foerderschwerpunkte/praeklinische-wirkstoffentwicklung/car-factory/) at universities. The aim is to create a Germany-wide network that brings together expertise from biology, medicine, pharmaceutical chemistry, pharmacology and immunotherapy. 
+
+In this context, German Cancer Aid funds the Germany-wide research network ["CAR FACTORY"](https://www.krebshilfe.de/forschen/projekte/foerderschwerpunkte/praeklinische-wirkstoffentwicklung/car-factory/) lead by the spokespersons Prof. Michael Hudecek (Würzburg) and Prof. Evelyn Ullrich (Frankfurt); further partner sites involved in the CAR FACTORY are the University of Freiburg, the Paul Ehrlich Institute in Langen and the Fraunhofer Institute for Cell Therapy and Immunology in Leipzig.
+
+
 <p style="color: #061d4e; font-size:150%">SFB/CRC 1292</p>
 Within the framework of the CRC 1292 [„Targeting convergent mechanisms of inefficient immunity in tumors and chronic infections“](https://sfb1292.uni-mainz.de/), we investigate the development of innovative immunotherapy of solid tumors as well as AML in cooperation projects with Prof. S. Fulda and Prof. Dr. M. Kühn.
 

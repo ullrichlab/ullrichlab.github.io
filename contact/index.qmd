@@ -34,6 +34,7 @@ Building 32 E, 2nd Floor\
 <p style="color: #061d4e; font-size:90%">Additional certification Immunology Specialist / Immunologist DGfI</p>
 <p style="color: #006B99;"><i class="bi-envelope"></i> evelyn | ullrichlab.de</p>
 <p style="color: #006B99;"><i class="bi-telephone"></i> +49 69 6301 83000</p>
+<p style="color: #006B99;"><i class="bi-twitter"></i> [ullrich_lab]("https://twitter.com/ullrich_lab")</p>
 
 
 <p>&emsp;</p>

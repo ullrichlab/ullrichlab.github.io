@@ -1,0 +1,11 @@
+---
+title: "NK/ILC Symposium 2024"
+subtitle: "16-18 October 2024, Lyon"
+href: /events/symposium_NK_ILC.qmd
+format:
+  html:
+    css: ../html/styles.scss
+---
+The [NK/ILC Symposium](https://www.nk-ilc-symposium2024.com/) traditionally takes place in Germany each year, initiated by the Study Group "NK cells and ILCs" of the [German Society for Immunology (DGFI)](https://dgfi.org/arbeitskreise/ak-nk-zellen-und-ilcs/).
+
+The meeting will bring together experts in innate lymphocyte biology, and cover the latest emerging concepts in the field, their clinical translation, and the application of cutting-edge high-resolution technologies. The meeting will host researchers, industrials, and clinicians with a common interest in NK cells and ILCs. It will discuss how the current understanding of the development and biology of NKs and ILCs might enable development of next-generation therapies in cancer and chronic infections.
