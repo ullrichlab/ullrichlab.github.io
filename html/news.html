@@ -1,0 +1,17 @@
+<ul>
+  <% for (const item of items) { 
+      const date = new Date(item.datePublished);
+      const formattedDate = date.toLocaleString('default', { year: 'numeric', month: 'long' }); %>
+    <li id="listing-item">
+      <a href="<%= item.path %>" id="listing-link">
+        
+        <!-- Image Section -->
+        <div id="listing-image-container"><img src="<%= item.about.image %>" alt="Event Image" id="listing-image"></div>
+
+        <!-- Text Section -->
+        <div id="listing-text-container"><h3 id="listing-title"><%= item.title %></h3><span id="listing-datePublished"><%= formattedDate %></span><div id="listing-description"><%= item.description %></div></div>
+
+      </a>
+    </li>
+  <% } %>
+</ul>

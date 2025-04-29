@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../img/small_logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -65,9 +67,67 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../html/styles.scss">
+    const options = {
+      valueNames: ['listing-website','listing-project','listing-execute','listing-format','listing-language','listing-title','listing-startDate','listing-endDate','listing-location','listing-href','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-website","listing-project","listing-execute","listing-format","listing-language","listing-title","listing-startDate","listing-endDate","listing-location","listing-href","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-events'] = new List('listing-events', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="html/styles.scss">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -95,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../team/index.html" aria-current="page"> 
+    <a class="nav-link" href="../team/index.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
@@ -131,27 +191,80 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 
 
-<section id="team" class="level1 page-columns page-full">
-<h1>TEAM</h1>
-<hr>
-<!-- Vertical space -->
-<p>
- 
-</p>
-<!-- Makes image and image caption a bit broader than the usual web page -->
-<div class="column-body-outset">
-<p><img src="../img/ullrich_team.jpg" alt="Avatar" style="width:100%"></p>
-<p font-size:90%"="">f.l.t.r.: Philipp Wendel, Nawid Albinger, Jan Habermann, Tobias Bexte, Lisa Marie Reindl, Evelyn Ullrich, Julia Campe, Franziska Ganß, Alina Moter, Thorsten Diegisser, Katja Stein, Fenja Gierschek, Alice Born, Elisa Dollberg (2022).</p>
-<p font-size:90%"="">Not on the photo (in alphabetical order): Leon Buchinger, Janne Hauck, Lennart Krähl, Lida Jalili, Sophia Thul.</p>
+<!-- nothing needs to be changed on this page -->
+<p><a style="color: #061d4e; font-size:220%; font-weight: 700">Events</a></p>
+<div id="listing-events" class="quarto-listing quarto-listing-container-custom">
+<ul>
+<li id="listing-item">
+<p><a href="../events/events/fcc.html" id="listing-link"></a></p><a href="../events/events/fcc.html" id="listing-link">
+<p><!-- Left Section: Date and Location --></p>
+<div id="listing-left-container">
+<div class="rect-box">
+<span id="listing-date">28th-30th August 2024</span><span id="listing-location"><i class="bi bi-geo-alt-fill"></i>Frankfurt</span>
+</div>
+</div>
+<!-- Text Section -->
+<div id="listing-text-container">
+<h3 id="listing-title" class="anchored">
+Frankfurt Cancer Conference
+</h3>
+<div id="listing-description">
+The Frankfurt Cancer Conference is a three-day on-site meeting of internationally leading cancer researchers as well as junior scientists and clinical oncologists. The main…
+</div>
+</div>
+</a>
+</li>
+<li id="listing-item">
+<p><a href="../events/events/symposium_NK_ILC.html" id="listing-link"></a></p><a href="../events/events/symposium_NK_ILC.html" id="listing-link">
+<p><!-- Left Section: Date and Location --></p>
+<div id="listing-left-container">
+<div class="rect-box">
+<span id="listing-date">16th-18th October 2024</span><span id="listing-location"><i class="bi bi-geo-alt-fill"></i>Lyon</span>
+</div>
+</div>
+<!-- Text Section -->
+<div id="listing-text-container">
+<h3 id="listing-title" class="anchored">
+NK/ILC Symposium 2024
+</h3>
+<div id="listing-description">
+The NK/ILC Symposium traditionally takes place in Germany each year, initiated by the Study Group “NK cells and ILCs” of the German Society for Immunology (DGFI).
+</div>
+</div>
+</a>
+</li>
+<li id="listing-item">
+<p><a href="../events/events/symposium_int_onc.html" id="listing-link"></a></p><a href="../events/events/symposium_int_onc.html" id="listing-link">
+<p><!-- Left Section: Date and Location --></p>
+<div id="listing-left-container">
+<div class="rect-box">
+<span id="listing-date">6th September 2024</span><span id="listing-location"><i class="bi bi-geo-alt-fill"></i>Freiburg</span>
+</div>
+</div>
+<!-- Text Section -->
+<div id="listing-text-container">
+<h3 id="listing-title" class="anchored">
+Symposium “Intelligent Oncology – The Potential Of AI To Control Cancer“
+</h3>
+<div id="listing-description">
+Bringing together experts from various disciplines to explore the latest advances in AI-assisted cancer research. The Symposium “Intelligent Oncology – The Potential Of AI…
+</div>
+</div>
+</a>
+</li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
 </div>
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

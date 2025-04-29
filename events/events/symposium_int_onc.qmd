@@ -1,0 +1,19 @@
+---
+title: "Symposium “Intelligent Oncology – The Potential Of AI To Control Cancer“ "
+startDate: 9-6-2024
+location: Freiburg
+href: /events/symposium_int_onc.qmd
+format:
+  html:
+    css: ../html/styles.scss
+---
+
+<!-- This is the description text that will also be displayed on the home page -->
+Bringing together experts from various disciplines to explore the latest advances in AI-assisted cancer research. 
+The Symposium [“Intelligent Oncology – The Potential Of AI To Control Cancer“](https://www.intelligent-oncology.org/events/) promotes collaboration between researchers, physicians, industry leaders, and other visionaries in the field. By sharing knowledge and expertise, we aim to discover new ways to control cancer through the power of AI.
+
+<!-- Change this text manually to display the date in the correct format -->
+<div class="rect-box" style="display: inline-flex;"><i class="bi bi-calendar-check"></i> 6th September 2024</div>
+
+<!-- No need to change this one :) -->
+<div class="rect-box" style="display: inline-flex;"><i class="bi bi-geo-alt-fill"></i> {{< meta location >}}</div>

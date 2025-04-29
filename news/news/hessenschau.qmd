@@ -1,0 +1,16 @@
+
+---
+title: "Wenn die eigenen Zellen den Krebs besiegen"
+datePublished: 04-09-2024
+about:
+  template: broadside
+  image: ../../img/ullrich_im_lab.jpg
+format:
+  html:
+    css: ../html/styles.scss
+---
+
+<div class="transparent-box" style="display: inline-flex;"><i class="bi bi-calendar-check"></i> September 2024</div>
+
+Ullrich Lab in the series "Research in Hessen" - with the topic of cell therapy - on 9 April 2024:
+[CAR-T-Zell-Therapie (hessenschau.de)](https://www.hessenschau.de/gesellschaft/car-t-zell-therapie-wenn-die-eigenen-zellen-den-krebs-besiegen-v1,krebs-uniklinik-100.html)

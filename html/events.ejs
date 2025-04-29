@@ -1,0 +1,56 @@
+<% 
+  // Sort items by date, descending (newest first)
+  items.sort((a, b) => new Date(b.date) - new Date(a.date));
+  
+  // Helper function to format dates (e.g., "18-20th October 2011" or "18th October 2011")
+  function formatDateRange(startDate, endDate) {
+    const start = new Date(startDate);
+    const startDay = start.getDate();
+    const startMonth = start.toLocaleString('default', { month: 'long' });
+    const year = start.getFullYear();
+
+    const startSuffix = getDateSuffix(startDay);
+
+    // If there's an endDate, format a range
+    if (endDate) {
+      const end = new Date(endDate);
+      const endDay = end.getDate();
+      const endMonth = end.toLocaleString('default', { month: 'long' });
+      const endSuffix = getDateSuffix(endDay);
+      return `${startDay}${startSuffix}-${endDay}${endSuffix} ${endMonth} ${year}`;
+    }
+
+    // Otherwise, just return the single start date
+    return `${startDay}${startSuffix} ${startMonth} ${year}`;
+  }
+
+  function getDateSuffix(day) {
+    if (day >= 11 && day <= 13) {
+      return 'th';
+    }
+    switch (day % 10) {
+      case 1: return 'st';
+      case 2: return 'nd';
+      case 3: return 'rd';
+      default: return 'th';
+    }
+  }
+%>
+
+<ul>
+  <% for (const item of items) { 
+      const formattedDateRange = formatDateRange(item.startDate, item.endDate); %>
+    <li id="listing-item">
+      <a href="<%= item.path %>" id="listing-link">
+
+        <!-- Left Section: Date and Location -->
+        
+        <div id="listing-left-container"><div class="rect-box"><span id="listing-date"><%= formattedDateRange %></span><% if (item.location) { %><span id="listing-location"><i class="bi bi-geo-alt-fill"></i><%= item.location %></span><% } %></div></div>
+
+        <!-- Text Section -->
+        <div id="listing-text-container"><h3 id="listing-title"><%= item.title %></h3><div id="listing-description"><%= item.description %></div></div>
+
+      </a>
+    </li>
+  <% } %>
+</ul>

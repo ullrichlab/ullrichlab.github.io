@@ -2,10 +2,26 @@
   {
     "listing": "/index.html",
     "items": [
-      "/news/hessenschau.html",
-      "/events/fcc.html",
-      "/events/symposium_NK_ILC.html",
-      "/events/symposium_int_onc.html"
+      "/news/news/award2024.html",
+      "/news/news/hessenschau.html",
+      "/events/events/fcc.html",
+      "/events/events/symposium_NK_ILC.html",
+      "/events/events/symposium_int_onc.html"
+    ]
+  },
+  {
+    "listing": "/events/index.html",
+    "items": [
+      "/events/events/fcc.html",
+      "/events/events/symposium_NK_ILC.html",
+      "/events/events/symposium_int_onc.html"
+    ]
+  },
+  {
+    "listing": "/news/index.html",
+    "items": [
+      "/news/news/award2024.html",
+      "/news/news/hessenschau.html"
     ]
   }
 ]
