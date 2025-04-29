@@ -1,0 +1,14 @@
+---
+title: "Paper Award by the German Society for Gene Therapy (DG-GT) "
+datePublished: 07-01-2024
+about:
+  template: broadside
+  image: ../../img/CAR-NK_tumor_interaction_image.png
+format:
+  html:
+    css: ../html/styles.scss
+---
+
+<div class="transparent-box" style="display: inline-flex;"><i class="bi bi-calendar-check"></i> July 2024</div>
+
+The recent work by Tobias Bexte on “Engineering of potent CAR NK cells using non-viral Sleeping Beauty transposition from minimalistic DNA vectors“ from the research group of Evelyn Ullrich, Frankfurt, was awarded ["Paper of the Quarter Q2/24"](https://www.dg-gt.de/post/preisträger-q2-2024).

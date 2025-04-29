@@ -96,7 +96,7 @@ body {
         position: inherit;
         margin-top: 0;
 
-        @media (max-width: map-get($grid-breakpoints, md)) {
+        @media (max-width: 1200px) {
             margin-top: 0.5em;
             margin-bottom: 1.5em;
         }
@@ -112,7 +112,7 @@ body {
         min-height: 2em;
     }
 
-    @media (min-width: map-get($grid-breakpoints, md)) {
+    @media (min-width: 1200px) {
         .nav-footer-left {
             text-align: left;
         }
@@ -138,8 +138,27 @@ body {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   font-family: 'Open Sans', Sans-Serif;
-  font-size: 1em;
+  font-size: 1em; /* Default font size */
   font-weight: 1000;
+  white-space: normal; /* Ensure text wraps if it's too long */
+  line-height: 1.4; /* Ensures better readability if text wraps */
+}
+
+
+@media (max-width: 1200px) {
+  .navbar {
+    font-size: 0.8em; /* Further decrease the font size on even smaller screens */
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    font-size: 0.7em; /* Make font smaller on very small screens */
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
 }
 
 .navbar-brand.navbar-brand-logo {
@@ -150,13 +169,7 @@ body {
   margin-left: 1.5em;
 }
 
-@media (max-width: 991px) {
-  .navbar-brand.navbar-brand-logo {
-    margin-left: 5vw;
-    margin-right: 10vw;
-    visibility: hidden;
-}
-}
+
 
 .navbar-logo {
   max-height: 2em;
@@ -165,10 +178,15 @@ body {
 }
 
 @media (max-width: 991px) {
-.navbar-logo {
-  max-height: 100px;
-  width: auto;
-  align-items: baseline;
+  .navbar-logo {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    max-width: 2em;
+    min-width: 1em;
+    
+    transform: scale(0.8);
+    transition: transform 0.3s ease, max-width 0.3s ease;  /* Smooth transition */
+
 }
 }
 
@@ -189,7 +207,7 @@ body {
   margin-top: 5rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .aa-DetachedSearchButton {
     margin-top: 0;
 }
@@ -289,7 +307,7 @@ a:active {
   margin-right: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 991px) {
   .img-round {
     display: none;
   }
@@ -299,7 +317,7 @@ a:active {
   border-radius: 5%;
   width: 100%;
   height: auto;
-  max-width: 5vw;
+  max-width: 4.5em;
   display: block;
   margin-left: auto;
   margin-right: 10px;
@@ -325,4 +343,156 @@ and (max-device-width : 480px) {
   .div-event{
     font-size: 1vw;
   }
+}
+
+
+/* General styles for the listing container */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each listing item */
+#listing-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);  /* Grey line between items */
+  padding-bottom: 10px;  /* Space below the listing item */
+  margin-bottom: 10px;  /* Space below the listing item to separate from the next */
+}
+
+#listing-item:last-child {
+  border-bottom: none;  /* Remove the border on the last item */
+}
+
+/* Link wrapper for the entire listing */
+#listing-link {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+/* Image section styling */
+#listing-image-container {
+  flex: 1 1 33%;
+  max-width: 30%;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  height: 200px;
+  margin-top: 10px;
+}
+
+/* Image itself */
+#listing-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text section styling */
+#listing-left-container {
+  flex: 1 1 33%;
+  max-width: 30%;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  margin-top:20px;
+}
+
+/* Text section styling */
+#listing-text-container {
+  flex: 2 1 65%;
+  margin-left: 20px;
+  max-width: 65%;
+  margin-bottom: 10px;
+}
+
+/* Header styling */
+#listing-title {
+  margin-bottom: 5px;
+}
+
+#listing-date {
+  display: block;
+  font-size: 15px;
+}
+
+/* Date styling */
+#listing-location {
+  display: block;
+}
+
+/* Description container */
+#listing-description {
+  margin-top: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  #listing-item {
+    display: block;
+  }
+
+  #listing-link {
+    display: block;
+  }
+
+  /* Move image above text */
+  #listing-image-container {
+    order: 1;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+  
+  #listing-left-container {
+    order: 1;
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 100%;
+  }
+
+  #listing-text-container {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  #listing-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.rect-box {
+      background-color: #061d4e;  /* Set the background color */
+      font-size: 19px;
+			border: 1px solid #061d4e;
+			padding: 15px 30px;
+      justify-content: center;  /* Center the icon horizontally */
+      align-items: center;  /* Center the icon vertically */
+      color: #F7FCFD;  /* Set the icon color to white */
+      border-radius: 10px;  /* Optional: rounded corners */
+      margin-bottom: 10px;
+}
+.rect-box i {
+      font-size: 20px;  /* Set the icon size */
+      margin-right: 8px;  /* Space between icon and text */
+}
+
+.transparent-box {
+      font-size: 15px;
+			padding: 15px 30px;
+      color: #061d4e;  /* Set the icon color to white */
+      margin-bottom: 10px;
+}
+.transparent-box i {
+      margin-right: 8px;  /* Space between icon and text */
 }

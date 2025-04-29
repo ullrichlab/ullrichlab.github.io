@@ -5,11 +5,14 @@ format:
     css: html/styles.scss
 listing:
 - id: "news"
-  contents: news
+  contents: news/news
+  template: html/news.html
   type: default
 - id: "events"
-  contents: events
+  contents: events/events
+  template: html/events.ejs
   type: default
+  max-items: 3
 ---
 
 <!-- screen inset broadens the display size of the text -->
@@ -53,13 +56,21 @@ The <a style="font-weight: 999;">Experimental Immunology and Cell Therapy</a> Di
 
 <a style="color: #061d4e; font-size:220%; font-weight: 700">News</a>
 
+[<i class="bi bi-arrow-right"></i> See all news](news/index.qmd)
+
 :::{#news}
 :::
 
+
+
 <a style="color: #061d4e; font-size:220%; font-weight: 700">Events</a>
+
+[<i class="bi bi-arrow-right"></i> See all events](events/index.qmd)
 
 :::{#events}
 :::
+
+
 
 :::::
 
@@ -99,4 +110,3 @@ The <a style="font-weight: 999;">Experimental Immunology and Cell Therapy</a> Di
 <p style="color: #006B99;"><i class="bi-phone"></i> +49 151 171 90472</p>
 
 :::
-

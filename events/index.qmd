@@ -1,0 +1,18 @@
+---
+comments: false
+format:
+  html:
+    css: html/styles.scss
+listing:
+- id: "events"
+  contents: events
+  template: ../html/events.ejs
+  type: default
+---
+
+<!-- nothing needs to be changed on this page -->
+
+<a style="color: #061d4e; font-size:220%; font-weight: 700">Events</a>
+
+:::{#events}
+:::
