@@ -1,0 +1,16 @@
+
+---
+title: "NK & ILC Symposium 2026 in Freiburg"
+datePublished: 06-01-2025
+about:
+  template: broadside
+  image: ../../img/Logo_Symposium_Website_short.jpg
+format:
+  html:
+    css: ../html/styles.scss
+---
+
+<div class="transparent-box" style="display: inline-flex;"><i class="bi bi-calendar-check"></i> June 2025</div>
+
+We are delighted to announce that we are organizing the [NK & ILC Symposium 2026](https://nk-symposium.org/) on March 11-13, in Freiburg on behalf of the NK & ILC Study Group of the German Society of Immunology (DGfI) [NK & ILC Study Group](https://dgfi.org/dgfi-en/study-groups/ak-nk-zellen-und-ilcs/). With Evelyn Ulrich and Susana Minguet as Co-Chairs, this symposium will bring together experts in NK, ILC and also γδ T cells for the first time. We look forward to welcome you in the beautiful city of Freiburg for three days full of exciting science.
+

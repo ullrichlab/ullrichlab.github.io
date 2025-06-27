@@ -1,7 +1,7 @@
 <% 
   // Sort items by date, descending (newest first)
-  items.sort((a, b) => new Date(b.date) - new Date(a.date));
-  
+  items.sort((a, b) => new Date(b.startDate) - new Date(a.startDate));
+
   // Helper function to format dates (e.g., "18-20th October 2011" or "18th October 2011")
   function formatDateRange(startDate, endDate) {
     const start = new Date(startDate);
