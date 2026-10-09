@@ -1,0 +1,77 @@
+---
+comments: false
+format:
+  html:
+    css: ../html/styles.scss
+---
+
+# Contact
+
+---
+
+<p style="color: #061d4e; font-size:150%">ADDRESS</p>
+<a style="color: #061d4e; font-size:110%">Ullrich Lab</a>
+\
+Laboratory for Experimental Immunology & Cell Therapy\
+Department of Pediatrics, Goethe University\
+Theodor-Stern-Kai 7\
+Building 32 E, 2nd Floor\
+60590 Frankfurt am Main
+
+<img src="../img/johanna_quandt_zentrum_crop.jpg" alt="Johanna Quandt Zentrum" style="width:100%">
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+<p style="color: #061d4e; font-size:150%">HEAD</p>
+
+<p style="color: #061d4e; font-size:110%">Prof. Dr. med. Evelyn Ullrich</p>
+<img class="img-round" src="../img/Ullrich_2020.jpg" alt="Avatar" style="width: 30%;" id="hp">
+<p style="color: #061d4e; font-size:90%">University Professorship - Chair of Personalized Immune Cell Therapy (PICT)</p>
+<p style="color: #061d4e; font-size:90%">Head of Research & Development at the Institute for Transfusion Medicine and Gene Therapy at the Universiy Medical Center Freiburg</p>
+<p style="color: #061d4e; font-size:90%">Additional certification Immunology Specialist / Immunologist DGfI</p>
+<p style="color: #006B99;"><i class="bi-envelope"></i> evelyn | ullrichlab.de</p>
+<p style="color: #006B99;"><i class="bi-telephone"></i> </p>
+<p style="color: #006B99;"><i class="bi-linkedin"></i> [Evelyn Ullrich]("https://www.linkedin.com/in/evelyn-ullrich-72456b326?utm_source=share_via&utm_content=profile&utm_medium=member_ios")</p>
+
+
+<p>&emsp;</p>
+
+<p style="color: #061d4e; font-size:150%">LABORATORY</p>
+
+<p style="color: #061d4e; font-size:110%"> To be announced </p>
+<p style="color: #061d4e; font-size:90%"></p>
+<p style="color: #006B99;"><i class="bi-envelope"></i></p>
+<p style="color: #006B99;"><i class="bi-telephone"></i></p>
+<p style="color: #006B99;"><i class="bi-phone"></i></p>
+
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+
+<p style="color: #061d4e; font-size:150%">SCIENTIFIC PROJECT COORDINATION</p>
+
+<p style="color: #061d4e; font-size:110%">Dr. rer. nat. Thorsten Diegisser</p>
+<p style="color: #061d4e; font-size:90%">Scientific Project Coordinator</p>
+<p style="color: #061d4e; font-size:90%">Working hours: Monday, Wednesday, Thursday 08:00-12:00</p>
+<p style="color: #006B99;"><i class="bi-envelope"></i> diegisser | med.uni-frankfurt.de</p>
+<p style="color: #006B99;"><i class="bi-phone"></i> +49 151 150 96319</p>
+
+<p>&emsp;</p>
+
+<p style="color: #061d4e; font-size:150%">CAREER DEVELOPMENT</p>
+
+<p style="color: #061d4e; font-size:110%">Stephanie Faber</p>
+<p style="color: #061d4e; font-size:90%">INDEEP Clinician Scientist Program</p>
+<p style="color: #006B99;"><i class="bi-envelope"></i> faber | med.uni-frankfurt.de</p>
+<p style="color: #006B99;"><i class="bi-phone"></i> +49 151 171 92247</p>
+
+:::
+::::
+
