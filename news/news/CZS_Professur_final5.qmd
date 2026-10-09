@@ -1,7 +1,7 @@
 
 ---
 title: "Carl-Zeiss-Stiftung Endowed Professorship in Freiburg"
-datePublished: 10-09-2026
+datePublished: 10-08-2026
 about:
   template: broadside
   image: ../../img/CZS_UKF_ITG_UF.png
