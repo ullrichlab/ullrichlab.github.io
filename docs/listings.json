@@ -27,5 +27,17 @@
       "/news/news/award2024.html",
       "/news/news/hessenschau.html"
     ]
+  },
+  {
+    "listing": "/index_20261009.html",
+    "items": [
+      "/news/news/CZS_Professur_final5.html",
+      "/news/news/NK_ILC_Symposium_2026.html",
+      "/news/news/award2024.html",
+      "/news/news/hessenschau.html",
+      "/events/events/fcc.html",
+      "/events/events/symposium_NK_ILC.html",
+      "/events/events/symposium_int_onc.html"
+    ]
   }
 ]
