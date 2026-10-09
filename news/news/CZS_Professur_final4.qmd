@@ -1,0 +1,22 @@
+
+---
+title: "Carl-Zeiss-Stiftung Endowed Professorship in Freiburg"
+datePublished: 10-09-2025
+about:
+  template: broadside
+  image: ../../img/CZS_UKF_ITG_UF.png
+format:
+  html:
+    css: ../html/styles.scss
+---
+
+<div class="transparent-box" style="display: inline-flex;"><i class="bi bi-calendar-check"></i> October 2026</div>
+
+Following successful years at the Goethe University Frankfurt, we are delighted to announce that the Carl-Zeiss-Stiftung is supporting the establishment of the new Chair of Personlized Immune Cell Therapy (PICT) at the Institute for Transfusion Medicine and Gene Therapy at the University Medical Center Freiburg. As a result, the Ullrichlab is on the way to join the University of Freiburg. There, the team will focus on building an interdisciplinary interface between medicine, life sciences, computer science, and AI research to advance innovative patient-centered immune cell therapies into clinical practice. 
+Further, Prof. Dr. med. Evelyn Ullrich will become head of Research and Development at the Institute for Transfusion Medicine and Gene Therapy.
+
+Further information about the Carl-Zeiss-Stiftung & PICT can be found here:
+
+[Personalized Immune Cell Therapy | Carl-Zeiss-Stiftung](https://www.carl-zeiss-stiftung.de/en/project-overview/detail/personalized-immune-cell-therapy)
+
+[Interview mit Prof. Dr. med. Evelyn Ullrich | Carl-Zeiss-Stiftung](https://www.carl-zeiss-stiftung.de/en/themen-projekte/interviews-stories/interview-mit-prof-dr-med-evelyn-ullrich)
